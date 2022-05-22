@@ -21,7 +21,7 @@ struct ContentView: View {
         TabView(selection: $selection) {
             AssetView()
                 .tabItem {
-                    Image(systemName: "house.fill")
+                    Image(systemName: "person.3.fill")
                     Text("홈")
                 }
                 .tag(Tab.home)
@@ -35,7 +35,7 @@ struct ContentView: View {
             Color.red
 //                .edgesIgnoringSafeArea(.all)
                 .tabItem {
-                    Image(systemName: "photo.on.rectangle.angled")
+                    Image(systemName: "book.closed")
                     Text("엘범")
                 }
                 .tag(Tab.album)
@@ -47,6 +47,7 @@ struct ContentView: View {
                 }
                 .tag(Tab.setting)
         }
+        .accentColor(.init("sofaColor"))
     }
 }
 

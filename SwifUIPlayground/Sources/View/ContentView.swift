@@ -20,6 +20,7 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selection) {
             AssetView()
+                .edgesIgnoringSafeArea(.all)
                 .tabItem {
                     Image(systemName: "person.3.fill")
                     Text("홈")
@@ -29,7 +30,7 @@ struct ContentView: View {
 //                .edgesIgnoringSafeArea(.all)
                 .tabItem {
                     Image(systemName: "calendar")
-                    Text("일정")
+                    Text("캘린더")
                 }
                 .tag(Tab.calendar)
             Color.red

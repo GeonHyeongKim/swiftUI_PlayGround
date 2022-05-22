@@ -11,6 +11,7 @@ struct ScheduleCard: View {
     var schedule: Schedule
     
     var body: some View {
+        
         Color.yellow
             .overlay(
                 HStack {
@@ -37,10 +38,10 @@ struct ScheduleCard: View {
                         })
                     .accentColor(.black)
                     .padding()
-                    
                 }
             )
             .padding(EdgeInsets(top: 0, leading: 50, bottom: 0, trailing: 50))
+            .background(Color.init("sofaBackGround"))
     }
 }
 

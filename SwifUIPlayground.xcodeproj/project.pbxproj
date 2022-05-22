@@ -16,6 +16,11 @@
 		C4296E84283A1AA8005D95EE /* SwifUIPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E83283A1AA8005D95EE /* SwifUIPlaygroundUITestsLaunchTests.swift */; };
 		C4296E99283A29ED005D95EE /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E98283A29ED005D95EE /* AssetView.swift */; };
 		C4296EA0283A2EFA005D95EE /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E9F283A2EFA005D95EE /* NavigationBarWithButton.swift */; };
+		C4296EA3283A404C005D95EE /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296EA2283A404C005D95EE /* Schedule.swift */; };
+		C4296EA6283A40C0005D95EE /* ScheduleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296EA5283A40C0005D95EE /* ScheduleCard.swift */; };
+		C4296EA8283A4B07005D95EE /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296EA7283A4B07005D95EE /* ScheduleView.swift */; };
+		C4296EAA283A4BDB005D95EE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296EA9283A4BDB005D95EE /* PageViewController.swift */; };
+		C4296EAC283A4BF3005D95EE /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296EAB283A4BF3005D95EE /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		C4296E83283A1AA8005D95EE /* SwifUIPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUIPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C4296E98283A29ED005D95EE /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
 		C4296E9F283A2EFA005D95EE /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
+		C4296EA2283A404C005D95EE /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		C4296EA5283A40C0005D95EE /* ScheduleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCard.swift; sourceTree = "<group>"; };
+		C4296EA7283A4B07005D95EE /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		C4296EA9283A4BDB005D95EE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C4296EAB283A4BF3005D95EE /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				C4296E9E283A2EB8005D95EE /* NavigationBar */,
+				C4296EA1283A3F9C005D95EE /* ScheduleView */,
 			);
 			path = SubComponents;
 			sourceTree = "<group>";
@@ -195,6 +206,26 @@
 				C4296E9F283A2EFA005D95EE /* NavigationBarWithButton.swift */,
 			);
 			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		C4296EA1283A3F9C005D95EE /* ScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				C4296EA7283A4B07005D95EE /* ScheduleView.swift */,
+				C4296EA2283A404C005D95EE /* Schedule.swift */,
+				C4296EA9283A4BDB005D95EE /* PageViewController.swift */,
+				C4296EAB283A4BF3005D95EE /* PageControl.swift */,
+				C4296EA4283A40A6005D95EE /* SubComponents */,
+			);
+			path = ScheduleView;
+			sourceTree = "<group>";
+		};
+		C4296EA4283A40A6005D95EE /* SubComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C4296EA5283A40C0005D95EE /* ScheduleCard.swift */,
+			);
+			path = SubComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,8 +360,13 @@
 			files = (
 				C4296EA0283A2EFA005D95EE /* NavigationBarWithButton.swift in Sources */,
 				C4296E99283A29ED005D95EE /* AssetView.swift in Sources */,
+				C4296EAC283A4BF3005D95EE /* PageControl.swift in Sources */,
+				C4296EA6283A40C0005D95EE /* ScheduleCard.swift in Sources */,
+				C4296EA8283A4B07005D95EE /* ScheduleView.swift in Sources */,
 				C4296E69283A1AA5005D95EE /* ContentView.swift in Sources */,
+				C4296EA3283A404C005D95EE /* Schedule.swift in Sources */,
 				C4296E67283A1AA5005D95EE /* SwifUIPlaygroundApp.swift in Sources */,
+				C4296EAA283A4BDB005D95EE /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

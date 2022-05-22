@@ -14,7 +14,6 @@
 		C4296E78283A1AA8005D95EE /* SwifUIPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E77283A1AA8005D95EE /* SwifUIPlaygroundTests.swift */; };
 		C4296E82283A1AA8005D95EE /* SwifUIPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E81283A1AA8005D95EE /* SwifUIPlaygroundUITests.swift */; };
 		C4296E84283A1AA8005D95EE /* SwifUIPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E83283A1AA8005D95EE /* SwifUIPlaygroundUITestsLaunchTests.swift */; };
-		C4296E91283A1ACA005D95EE /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E90283A1ACA005D95EE /* MyView.swift */; };
 		C4296E99283A29ED005D95EE /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E98283A29ED005D95EE /* AssetView.swift */; };
 		C4296EA0283A2EFA005D95EE /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296E9F283A2EFA005D95EE /* NavigationBarWithButton.swift */; };
 /* End PBXBuildFile section */
@@ -47,7 +46,6 @@
 		C4296E7D283A1AA8005D95EE /* SwifUIPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifUIPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4296E81283A1AA8005D95EE /* SwifUIPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUIPlaygroundUITests.swift; sourceTree = "<group>"; };
 		C4296E83283A1AA8005D95EE /* SwifUIPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUIPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C4296E90283A1ACA005D95EE /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		C4296E98283A29ED005D95EE /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
 		C4296E9F283A2EFA005D95EE /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,10 +166,8 @@
 		C4296E96283A20D9005D95EE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C4296E9A283A2E09005D95EE /* SubComponents */,
-				C4296E97283A29DB005D95EE /* Asset */,
 				C4296E68283A1AA5005D95EE /* ContentView.swift */,
-				C4296E90283A1ACA005D95EE /* MyView.swift */,
+				C4296E97283A29DB005D95EE /* Asset */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				C4296E98283A29ED005D95EE /* AssetView.swift */,
+				C4296E9A283A2E09005D95EE /* SubComponents */,
 			);
 			path = Asset;
 			sourceTree = "<group>";
@@ -330,7 +327,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4296E91283A1ACA005D95EE /* MyView.swift in Sources */,
 				C4296EA0283A2EFA005D95EE /* NavigationBarWithButton.swift in Sources */,
 				C4296E99283A29ED005D95EE /* AssetView.swift in Sources */,
 				C4296E69283A1AA5005D95EE /* ContentView.swift in Sources */,
